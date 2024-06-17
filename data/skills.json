@@ -1,0 +1,19 @@
+{
+  "skill": [
+    {
+      "name": "Frontend Developer",
+      "description": "Development of beautiful and unique user interfaces.",
+      "projects_completed": "15"
+    },
+    {
+      "name": "Backend Developer",
+      "description": "Designing and implementing server-side applications and APIs that power web. ",
+      "projects_completed": "5"
+    },
+    {
+      "name": "Data Analysis",
+      "description": "Analyzing and interpreting large datasets using tools such as Pandas and NumPy in Python, and visualizing insights with libraries like Matplotlib. ",
+      "projects_completed": "7"
+    }
+  ]
+}

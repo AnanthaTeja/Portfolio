@@ -1,0 +1,31 @@
+{
+  "education": [
+    {
+      "id": 0,
+      "img": "https://static.wixstatic.com/media/ab228a_6b00565fb65f49fd9ef6d9d8f3e48226~mv2.png/v1/fill/w_226,h_228,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Logo-2%20(1)_edited.png",
+      "school": "SRM University AP, Amaravati",
+      "date": "Grad: 2025",
+      "grade": "8.86 CGPA",
+      "desc": "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at SRM University AP, Amaravati. I have completed 5 semesters and have a CGPA of 8.86. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+      "degree": "Bachelor of Technology - BTech, Computer Science and Engineering"
+    },
+    {
+      "id": 1,
+      "img": "https://asset.brandfetch.io/idtxt2_guu/idtTHffVep.jpeg",
+      "school": "Sri Chaitanya Junior College, Kurnool",
+      "date": "Grad: 2021",
+      "grade": "92.0%",
+      "desc": "I completed my class 12 high school education at Sri Chaitanya Junior College, Kurnool.",
+      "degree": "SSC(XII)"
+    },
+    {
+      "id": 2,
+      "img": "data:image/png;base64,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",
+      "school": "Ridge School, Kurnool",
+      "date": "Grad: 2019",
+      "grade": "85.6%",
+      "desc": "I completed my class 10 education at Ridge School, Kurnool.",
+      "degree": "CBSE(X)"
+    }
+  ]
+}
