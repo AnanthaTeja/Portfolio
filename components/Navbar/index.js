@@ -17,7 +17,7 @@ function NavBar() {
         <div
           className={`left w-auto flex align-start items-start justify-start px-[10px] `}
         >
-          <p className={`font-extrabold mr-[20px]`}>
+          <p className={`font-extrabold mr-[20px] text-[20px]`}>
             {usersInfo.github_username.charAt(0).toUpperCase() +
               usersInfo.github_username.slice(1)}
           </p>
@@ -53,7 +53,7 @@ function NavBar() {
               <a
                 href={socials["linkedin"]}
                 target="_blank"
-                className={`w-[100px] text-[17px] flex flex-row align-center justify-center items-center decoration-none  hover:text-white `}
+                className={`w-[100px] text-[17px] flex flex-row align-center transition-all hover:text-green-100 hover:font-extrabold justify-center items-center decoration-none  hover:text-white `}
               >
                 <FaLinkedin className={`mr-[10px] `} />
                 <small>Linkedin</small>
@@ -64,7 +64,7 @@ function NavBar() {
               <a
                 href={socials["github"]}
                 target="_blank"
-                className={`w-[100px] text-[17px] flex flex-row align-center justify-center items-center decoration-none  hover:text-white `}
+                className={`w-[100px] text-[17px] flex flex-row  align-center transition-all hover:text-green-100 hover:font-extrabold justify-center items-center decoration-none  hover:text-white `}
               >
                 <FaGithub className={`mr-[10px] `} />
                 <small>Github</small>
@@ -74,12 +74,9 @@ function NavBar() {
             {socials["email"] !== "" && (
               <a
                 href={`mailto:${socials["email"]}`}
-                className={`w-[100px] text-[17px] flex flex-row align-center justify-center items-center decoration-none  hover:text-white `}
+                className={`w-[100px] text-[17px] flex flex-row align-center transition-all hover:text-green-100 hover:font-extrabold justify-center items-center decoration-none  hover:text-white `}
               >
-                <FontAwesomeIcon
-                  icon={faEnvelope}
-                  className="mr-[10px] text-gray-200"
-                />
+                <FontAwesomeIcon icon={faEnvelope} className="mr-[10px] " />
                 {/* <FiMail className={`mr-[10px] icon mail`} /> */}
                 <small>Email</small>
               </a>

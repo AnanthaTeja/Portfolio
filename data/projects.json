@@ -2,21 +2,21 @@
   "projects": [
     {
       "title": "Ride-Pooling",
-      "imageUrl": "https://private-user-images.githubusercontent.com/111896520/340104330-a999d611-7c1d-4618-9bb6-6098ccc84f74.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTg1OTU5NTUsIm5iZiI6MTcxODU5NTY1NSwicGF0aCI6Ii8xMTE4OTY1MjAvMzQwMTA0MzMwLWE5OTlkNjExLTdjMWQtNDYxOC05YmI2LTYwOThjY2M4NGY3NC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxN1QwMzQwNTVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00ZDIzMDUwN2MzYTI2MDA4MWJlM2E4NjdmOGYzMmQ5YWRlMTJmZTRjOGI2ZjFmYjU4ZDExODk3ZmQ2OWE1MjM0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.gpezyt9-voLnQXbUYKYdQrw-OJLTdjApvu7649ke49o",
+      "imageUrl": "https://res.cloudinary.com/drm1aiqq2/image/upload/v1719054901/340104330-a999d611-7c1d-4618-9bb6-6098ccc84f74.png_bt7hqk.png",
       "project_url": "https://github.com/AnanthaTeja/Ride_kap_pooling",
       "description": "Created a Ride pooling project that enables users to share rides with others and reduce their travel expences.",
       "tags": ["ReactJS", "MongoDB", "NodeJS"]
     },
     {
       "title": "Real Estate Portal",
-      "imageUrl": "https://private-user-images.githubusercontent.com/111896520/340104772-945be025-6e60-47f5-a9d0-60c187d71272.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTg1OTU4NjUsIm5iZiI6MTcxODU5NTU2NSwicGF0aCI6Ii8xMTE4OTY1MjAvMzQwMTA0NzcyLTk0NWJlMDI1LTZlNjAtNDdmNS1hOWQwLTYwYzE4N2Q3MTI3Mi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxN1QwMzM5MjVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04MzU1NTlhMDdiM2MxZjY1OGYxMDMxMTdiMWI3YjRhMzdlMzJiNDA3NDE4MWI3ZGYzOTk0N2NkOTRhMTNlNTYyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.zZ9iq8rllNuq4TFdKvFJlK2jx8L5O3VeGg8_MGX230w",
+      "imageUrl": "https://res.cloudinary.com/drm1aiqq2/image/upload/v1719055116/340104634-6c5012f3-58ec-4661-8ae7-50df543754e6.png_tmh90i.png",
       "project_url": "https://github.com/AnanthaTeja/REMS",
       "description": "Created a Ride pooling project that enables users to share rides with others and reduce their travel expences.",
       "tags": ["Python", "Django", "SQlite3"]
     },
     {
       "title": "Customer Churn Analysis",
-      "imageUrl": "https://private-user-images.githubusercontent.com/111896520/340129134-4c35beac-3309-4664-8732-dd0aeb45b019.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTg1OTYwMzMsIm5iZiI6MTcxODU5NTczMywicGF0aCI6Ii8xMTE4OTY1MjAvMzQwMTI5MTM0LTRjMzViZWFjLTMzMDktNDY2NC04NzMyLWRkMGFlYjQ1YjAxOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxN1QwMzQyMTNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xN2FlMzk5ODY4YzM1ZWQ5ZGNkMDE5YTNiOTJmNjkwMDlkZjVjMzM2ZGU0NDAxZTdiNGExZGY5OTUyN2RhMGE4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZmDf_yA-iFkuT2OHRemGntZFmI7F3VWc1J8MGLi9QwM",
+      "imageUrl": "https://res.cloudinary.com/drm1aiqq2/image/upload/v1719055743/340129134-4c35beac-3309-4664-8732-dd0aeb45b019.png_wyylpm.png",
       "project_url": "",
       "description": "Leveraging machine learning techniques, we have developed a Random Forest classifier to predict customer churn.",
       "tags": ["Data Analysis", "Random Foresting", "Data Visualisation"]

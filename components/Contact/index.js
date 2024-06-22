@@ -163,7 +163,7 @@ function ContactForm({ contactActive, closeContactForm }) {
         >
           <h1 className="text-[20px] py-4 ">Contact Me</h1>
           <AiOutlineClose
-            className={`p-2 text-[35px] absolute top-[-16px] right-[-5px] text-red-200 bg-red-900 rounded-[50%] cursor-pointer ${
+            className={`p-2 text-[35px] absolute top-[-8px] right-[-5px] text-red-400 bg-green-800 rounded-[50%] cursor-pointer ${
               contactActive ? "flex" : "hidden"
             } `}
             onClick={closeContactForm}

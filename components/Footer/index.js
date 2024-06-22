@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div
       id="footer"
-      className="relative w-screen h-[35vh] py-5 px-3 bg-dark-300"
+      className="relative w-screen h-[20vh] py-5 px-3 bg-dark-300"
     >
       <Container>
         <div className="relative flex flex-row items-center justify-between">

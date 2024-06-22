@@ -17,41 +17,39 @@ function Experiences() {
         ></span>
       </div>
 
-      <div className="experiences w-full grid gap-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+      <div className="w-full grid gap-6 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-center">
         {experiences.length > 0 &&
           experiences.map((exp, i) => (
             <div
               key={i}
               data-aos="zoom-in"
-              className="experienceCard bg-dark-200 rounded-md shadow-lg p-4 flex flex-col items-center"
+              className="box w-full h-auto bg-dark-200 rounded-[5px] relative top-[50px] transition-all mb-[50px] mr-[5px] opacity-[.7] md:w-[250px] md:ml-0 hover:opacity-[1] flex flex-col"
             >
               <div
-                className="imgCont w-32 h-32 rounded-full bg-cover bg-center mb-4"
+                className="imgCont w-full h-[190px] rounded-[5px] bg-cover bg-center mb-[10px]"
                 style={{
                   backgroundImage: `url(${
                     exp.img || "https://via.placeholder.com/150"
                   })`,
                 }}
               ></div>
-              <div className="w-full text-center">
-                <p className="text-white text-lg font-semibold mb-1">
-                  {exp.role || "Job Role"}
-                </p>
-                <p className="text-gray-400 text-sm mb-1">
-                  {exp.company || "Company Name"}
-                </p>
-                <p className="text-gray-400 text-sm mb-1">
-                  {exp.date || "Job Duration"}
-                </p>
-                <p className="text-gray-300 text-sm mt-2">
-                  {exp.desc || "Job Description"}
-                </p>
+              <div className="w-full p-[10px] flex-1">
+                <div className="w-full h-auto">
+                  <p className="text-[15px] text-white-200">
+                    {exp.role || "Job Role"}
+                  </p>
+                  <br />
+                  <small className="text-white-200">
+                    {exp.desc ||
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}
+                  </small>
+                </div>
               </div>
-              <div className="flex-grow flex flex-wrap items-end justify-center gap-2 mt-4">
+              <div className="flex items-start justify-start m-2 ">
                 {exp.skills.map((skill, j) => (
                   <span
                     key={j}
-                    className="skill-tag bg-dark-100 py-1 px-3 rounded text-xs text-white"
+                    className="text-[10px] py-[3px] px-[9px] bg-dark-100 mr-[2px] rounded-[2px] text-white-100"
                   >
                     {skill}
                   </span>

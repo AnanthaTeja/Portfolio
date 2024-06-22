@@ -72,42 +72,46 @@ function Projects() {
             <div
               data-aos="zoom-in"
               key={i}
-              className="box w-full h-auto bg-dark-200 rounded-[5px] relative top-[50px] transition-all mb-[50px] mr-[5px] opacity-[.7] md:w-[250px] hover:opacity-[1]"
+              className="box w-full h-auto bg-dark-200 rounded-[5px] relative top-[50px] transition-all mb-[50px]  hover:bg-gray-800 mr-[5px] opacity-[.7] md:w-[250px] hover:opacity-[5]"
             >
-              <div className="imgCont"></div>
-              <style jsx>{`
-                .imgCont {
-                  width: 100%;
-                  height: 190px;
-                  background-image: url(${list.imageUrl ||
-                  "https://www.wallpapertip.com/wmimgs/136-1369543_laptop-coding.jpg"});
-                  background-size: cover;
-                  background-repeat: no-repeat;
-                  background-position: center;
-                  border-radius: 5px;
-                }
-              `}</style>
-              <div className="w-full p-[10px] bottom-[5px]">
-                <div className="w-full h-auto">
-                  <p className="text-[15px] text-white-200">
-                    {list.title || "Project Title"}
-                  </p>
+              <a href={list.project_url} target="_blank" >
+                <div className="imgCont"></div>
+                <style jsx>{`
+                  .imgCont {
+                    width: 100%;
+                    height: 190px;
+                    background-image: url(${list.imageUrl ||
+                    "https://www.wallpapertip.com/wmimgs/136-1369543_laptop-coding.jpg"});
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    border-radius: 5px;
+                  }
+                `}</style>
+
+                <div className="w-full p-[10px] bottom-[5px]">
+                  <div className="w-full h-auto">
+                    <p className="text-[15px] text-white-200">
+                      {list.title || "Project Title"}
+                    </p>
+                    <br />
+                    <small>
+                      {list.description || "some dummy description"}
+                    </small>
+                  </div>
                   <br />
-                  <small>{list.description || "some dummy description"}</small>
-                </div>
-                <br />
-                <div className="bottom-[5px] left-[5px] p-0 flex items-start justify-start">
-                  {list.tags.length > 0 &&
-                    list.tags.slice(0, 3).map((tag, i) => (
-                      <span
-                        key={i}
-                        className="text-[10px] py-[3px] px-[9px] bg-dark-100 mr-[2px] rounded-[2px] text-white-100"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                </div>
-                <span className="absolute my-[-20px] right-[10px] text-[12px] flex items-center justify-start">
+                  <div className="bottom-[5px] left-[5px] p-0 flex items-start justify-start">
+                    {list.tags.length > 0 &&
+                      list.tags.slice(0, 3).map((tag, i) => (
+                        <span
+                          key={i}
+                          className="text-[10px] py-[3px] px-[9px] bg-dark-100 mr-[2px] rounded-[2px] text-white-100"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                  </div>
+                  {/* <span className="absolute my-[-20px] right-[10px] text-[12px] flex items-center justify-start">
                   {list.project_url && (
                     <>
                       <a
@@ -122,8 +126,9 @@ function Projects() {
                       ></ion-icon>
                     </>
                   )}
-                </span>
-              </div>
+                </span> */}
+                </div>
+              </a>
             </div>
           ))}
       </div>

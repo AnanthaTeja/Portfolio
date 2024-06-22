@@ -133,26 +133,26 @@
 //   },
 // ];
 
-export const experiences = [
-  {
-    id: 0,
-    img: "https://hts.hoozor.com/static/img/logo.svg",
-    role: "Frontend Web Developer Intern",
-    company: "Hoozor Tech Services.",
-    date: "Feb 2022 - May 2022",
-    desc: "Working on the frontend of the websites using HTML,CSS, and Javascript.",
-    skills: ["HTML", "CSS", "JavaScript"],
-  },
-  {
-    id: 1,
-    img: "https://www.agumentik.com/images/logo.png",
-    role: "UI/UX Designer",
-    company: "Agumentik Group of Companies",
-    date: "June 2023 - August 2023",
-    desc: "Working on creating new designs using figma tool and making prototypes for the designs.",
-    skills: ["Figma", "Wireframing", "Prototyping", "Mockups"],
-  },
-];
+// export const experiences = [
+//   {
+//     id: 0,
+//     img: "https://hts.hoozor.com/static/img/logo.svg",
+//     role: "Frontend Web Developer Intern",
+//     company: "Hoozor Tech Services.",
+//     date: "Feb 2022 - May 2022",
+//     desc: "Working on the frontend of the websites using HTML,CSS, and Javascript.",
+//     skills: ["HTML", "CSS", "JavaScript"],
+//   },
+//   {
+//     id: 1,
+//     img: "https://www.agumentik.com/images/logo.png",
+//     role: "UI/UX Designer",
+//     company: "Agumentik Group of Companies",
+//     date: "June 2023 - August 2023",
+//     desc: "Working on creating new designs using figma tool and making prototypes for the designs.",
+//     skills: ["Figma", "Wireframing", "Prototyping", "Mockups"],
+//   },
+// ];
 // data/constants.js
 export const education = [
   {
